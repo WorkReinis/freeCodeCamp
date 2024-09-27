@@ -17,3 +17,11 @@ function rot13(str) {
   return shift.map(obj => String.fromCharCode(obj)).join("")
 
 }
+
+console.log(rot13("URYYB"));       // Outputs: HELLO
+console.log(rot13("JBEYQ"));       // Outputs: WORLD
+console.log(rot13("SERR PBQR"));   // Outputs: FREE CODE
+console.log(rot13("WNINFPEVCG"));  // Outputs: JAVASCRIPT
+console.log(rot13("12345!@#"));    // Outputs: 12345!@#
+console.log(rot13("EBG13"));       // Outputs: ROT13
+console.log(rot13("TVGUBE"));      // Outputs: GITHUB
